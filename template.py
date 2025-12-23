@@ -6,12 +6,15 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-
+chapter_1 = "Ch01_Attention_Mechanism"
 
 
 list_of_files = [
     "requirements.txt",
     
+    f"{chapter_1}/01_Tokenization.ipynb",
+    f"{chapter_1}/02_Byte_Pair_Encoding.ipynb",
+    f"{chapter_1}/03_Self_Attention.ipynb",
     
 ]
 
