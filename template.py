@@ -17,6 +17,7 @@ list_of_files = [
     f"{chapter_1}/03_Data_Loader.ipynb",
     f"{chapter_1}/04_Embeddings.ipynb",
     f"{chapter_1}/05_Self_Attention.ipynb",
+    f"{chapter_1}/06_Causal_Attention.ipynb",
     
 ]
 
