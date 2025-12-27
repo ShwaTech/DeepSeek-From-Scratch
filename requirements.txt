@@ -3,3 +3,5 @@ triton==3.0.0
 transformers==4.46.3
 safetensors==0.4.5
 tiktoken==0.9.0
+bertviz==1.4.1
+matplotlib==3.10.8

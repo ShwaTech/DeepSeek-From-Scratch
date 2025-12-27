@@ -19,6 +19,7 @@ list_of_files = [
     f"{chapter_1}/05_Self_Attention.ipynb",
     f"{chapter_1}/06_Causal_Attention.ipynb",
     f"{chapter_1}/07_Multihead_Attention.ipynb",
+    f"{chapter_1}/08_Multihead_Attention_Visualized.ipynb",
     
     
 ]
