@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-chapter_1 = "Ch01_Attention_Mechanism"
+chapter_1 = "Chapter01"
 
 
 list_of_files = [
