@@ -6,22 +6,24 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-chapter_1 = "Chapter01"
+chapter_01 = "Chapter01"
+chapter_02 = "Chapter02"
 
 
 list_of_files = [
     "requirements.txt",
     
-    f"{chapter_1}/01_Tokenization.ipynb",
-    f"{chapter_1}/02_Byte_Pair_Encoding.ipynb",
-    f"{chapter_1}/03_Data_Loader.ipynb",
-    f"{chapter_1}/04_Embeddings.ipynb",
-    f"{chapter_1}/05_Self_Attention.ipynb",
-    f"{chapter_1}/06_Causal_Attention.ipynb",
-    f"{chapter_1}/07_Multihead_Attention.ipynb",
-    f"{chapter_1}/08_Multihead_Attention_Visualized.ipynb",
+    f"{chapter_01}/01_Tokenization.ipynb",
+    f"{chapter_01}/02_Byte_Pair_Encoding.ipynb",
+    f"{chapter_01}/03_Data_Loader.ipynb",
+    f"{chapter_01}/04_Embeddings.ipynb",
+    f"{chapter_01}/05_Self_Attention.ipynb",
+    f"{chapter_01}/06_Causal_Attention.ipynb",
+    f"{chapter_01}/07_Multihead_Attention.ipynb",
+    f"{chapter_01}/08_Multihead_Attention_Visualized.ipynb",
     
-    
+    f"{chapter_02}/01_KV_Cache.ipynb",
+
 ]
 
 
