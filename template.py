@@ -19,7 +19,7 @@ list_of_files = [
     f"{chapter_01}/04_Embeddings.ipynb",
     f"{chapter_01}/05_Self_Attention.ipynb",
     f"{chapter_01}/06_Causal_Attention.ipynb",
-    f"{chapter_01}/07_Multi-Head_Attention.ipynb",
+    f"{chapter_01}/07_Multi-Head_Attention(MHA).ipynb",
     f"{chapter_01}/08_Multi-Head_Attention_Visualized.ipynb",
     
     f"{chapter_02}/01_KV_Cache.ipynb",
