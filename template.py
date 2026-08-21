@@ -23,6 +23,8 @@ list_of_files = [
     f"{chapter_01}/08_Multihead_Attention_Visualized.ipynb",
     
     f"{chapter_02}/01_KV_Cache.ipynb",
+    f"{chapter_02}/02_Multi-Query_Attention(MQA).ipynb",
+    f"{chapter_02}/03_Grouped-Query_Attention(GQA).ipynb",
 
 ]
 
