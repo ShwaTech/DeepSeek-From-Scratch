@@ -8,6 +8,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 chapter_01 = "Chapter01"
 chapter_02 = "Chapter02"
+chapter_03 = "Chapter03"
 
 
 list_of_files = [
@@ -25,6 +26,8 @@ list_of_files = [
     f"{chapter_02}/01_KV_Cache.ipynb",
     f"{chapter_02}/02_Multi-Query_Attention(MQA).ipynb",
     f"{chapter_02}/03_Grouped-Query_Attention(GQA).ipynb",
+
+    f"{chapter_03}/01_Multi-Head_Latent_Attention(MLA).ipynb",
 
 ]
 
