@@ -1,0 +1,41 @@
+1️⃣ First Board (DeepSeek From Scratch Part01 - Architecture):
+
+    https://miro.com/app/board/uXjVIe2h3fs=/
+
+
+===========================================================================================================
+
+2️⃣ Second Board (DeepSeek From Scratch Part02 - MLA):
+
+    https://miro.com/app/board/uXjVIIzfHBo=/
+
+
+===========================================================================================================
+
+3️⃣ Third Board (DeepSeek From Scratch Part03 - RoPE):
+
+    https://miro.com/app/board/uXjVIH8WBC8=/
+
+
+===========================================================================================================
+
+4️⃣  Forth Board (DeepSeek From Scratch Part04 - MoE):
+
+    https://miro.com/app/board/uXjVI_04Kik=/
+
+
+===========================================================================================================
+
+5️⃣ Fifth Board (DeepSeek From Scratch Part05 - MTP):
+
+    https://miro.com/app/board/uXjVI497amY=/
+
+
+===========================================================================================================
+
+6️⃣ Sixth Board (DeepSeek From Scratch Part06 - Quantization):
+
+    https://miro.com/app/board/uXjVI28wF8Q=/
+
+
+===========================================================================================================
