@@ -28,6 +28,8 @@ list_of_files = [
     f"{chapter_02}/03_Grouped-Query_Attention(GQA).ipynb",
 
     f"{chapter_03}/01_Multi-Head_Latent_Attention(MLA).ipynb",
+    f"{chapter_03}/02_MLA_with_Decoupled_RoPE(DSA).ipynb",
+    f"{chapter_03}/Bonus/MHA_vs_MQA_vs_GQA_vs_MLA.ipynb",
 
 ]
 
