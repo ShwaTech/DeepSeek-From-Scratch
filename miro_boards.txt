@@ -1,18 +1,18 @@
-1️⃣ First Board (DeepSeek From Scratch Part01 - Architecture):
+1️⃣ First Board (DeepSeek From Scratch Part01 - MHA):
 
     https://miro.com/app/board/uXjVIe2h3fs=/
 
 
 ===========================================================================================================
 
-2️⃣ Second Board (DeepSeek From Scratch Part02 - MLA):
+2️⃣ Second Board (DeepSeek From Scratch Part02 - KV_Cache Solutions & MLA):
 
     https://miro.com/app/board/uXjVIIzfHBo=/
 
 
 ===========================================================================================================
 
-3️⃣ Third Board (DeepSeek From Scratch Part03 - RoPE):
+3️⃣ Third Board (DeepSeek From Scratch Part03 - RoPE & RoPE_MLA):
 
     https://miro.com/app/board/uXjVIH8WBC8=/
 
