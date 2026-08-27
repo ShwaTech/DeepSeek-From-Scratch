@@ -34,6 +34,7 @@ list_of_files = [
 
     f"{chapter_04}/01_Mixture_of_Experts_(MoE)_from_Scratch.ipynb",
     f"{chapter_04}/02_DeepSeek_Mixture_of_Experts(DeepSeekMoE).ipynb",
+    
 ]
 
 
