@@ -9,6 +9,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 chapter_01 = "Chapter01"
 chapter_02 = "Chapter02"
 chapter_03 = "Chapter03"
+chapter_04 = "Chapter04"
 
 
 list_of_files = [
@@ -31,6 +32,7 @@ list_of_files = [
     f"{chapter_03}/02_MLA_with_Decoupled_RoPE(DSA).ipynb",
     f"{chapter_03}/Bonus/MHA_vs_MQA_vs_GQA_vs_MLA.ipynb",
 
+    f"{chapter_04}/01_Mixture_of_Experts_(MoE)_from_Scratch.ipynb",
 ]
 
 
