@@ -38,6 +38,7 @@ list_of_files = [
     f"{chapter_04}/Bonus/DeepSeek_MoE_Comparison.ipynb",
 
     f"{chapter_05}/01_Multi_Token_Prediction_(MTP)_From_Scratch.ipynb",
+    f"{chapter_05}/02_DeepSeek_Multi_Token_Prediction(DeepSeekMTP).ipynb",
     
 ]
 
