@@ -10,6 +10,7 @@ chapter_01 = "Chapter01"
 chapter_02 = "Chapter02"
 chapter_03 = "Chapter03"
 chapter_04 = "Chapter04"
+chapter_05 = "Chapter05"
 
 
 list_of_files = [
@@ -36,6 +37,7 @@ list_of_files = [
     f"{chapter_04}/02_DeepSeek_Mixture_of_Experts(DeepSeekMoE).ipynb",
     f"{chapter_04}/Bonus/DeepSeek_MoE_Comparison.ipynb",
 
+    f"{chapter_05}/01_Multi_Token_Prediction_(MTP)_From_Scratch.ipynb",
     
 ]
 
