@@ -1,4 +1,4 @@
-1️⃣ First Board (DeepSeek From Scratch Part01 - MHA):
+1️⃣ First Board (DeepSeek From Scratch Part01 - LLM Architecture, Tokenization, SA, MHA):
 
     https://miro.com/app/board/uXjVIe2h3fs=/
 
