@@ -12,6 +12,7 @@ chapter_03 = "Chapter03"
 chapter_04 = "Chapter04"
 chapter_05 = "Chapter05"
 chapter_06 = "Chapter06"
+chapter_07 = "Chapter07"
 
 
 list_of_files = [
@@ -48,6 +49,9 @@ list_of_files = [
     f"{chapter_06}/Stage_02_model.py",
     f"{chapter_06}/Stage_03_train.py",
     f"{chapter_06}/Stage_04_sample.py",
+
+    f"{chapter_07}/README.md",
+    
 
 ]
 
