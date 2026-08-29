@@ -13,6 +13,7 @@ chapter_04 = "Chapter04"
 chapter_05 = "Chapter05"
 chapter_06 = "Chapter06"
 chapter_07 = "Chapter07"
+chapter_08 = "Chapter08"
 
 
 list_of_files = [
@@ -53,6 +54,7 @@ list_of_files = [
     f"{chapter_07}/README.md",
     f"{chapter_07}/Minimal_GRPO_RLVR.py",
 
+    f"{chapter_08}/README.md",
 ]
 
 
