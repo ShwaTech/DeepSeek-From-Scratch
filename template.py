@@ -39,7 +39,7 @@ list_of_files = [
 
     f"{chapter_05}/01_Multi_Token_Prediction_(MTP)_From_Scratch.ipynb",
     f"{chapter_05}/02_DeepSeek_Multi_Token_Prediction(DeepSeekMTP).ipynb",
-    
+    f"{chapter_05}/03_DeepSeek_Quantization.ipynb",
 ]
 
 
