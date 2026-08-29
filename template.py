@@ -51,7 +51,6 @@ list_of_files = [
     f"{chapter_06}/Stage_04_sample.py",
 
     f"{chapter_07}/README.md",
-    
 
 ]
 

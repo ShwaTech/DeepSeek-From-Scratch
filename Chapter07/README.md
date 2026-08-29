@@ -20,28 +20,28 @@ Two important ideas behind this process are:
 The high-level pipeline is:
 
 ```text
-                    Prompt
-                       │
-                       ▼
-           Generate Multiple Completions
-                       │
-                       ▼
-              Deterministic Verifier
-                       │
-                       ▼
-                    Rewards
-                       │
-                       ▼
-            Group-Relative Advantages
-                       │
-                       ▼
-            Clipped GRPO Objective
-                       │
-                       ▼
-          Reference Policy Regularization
-                       │
-                       ▼
-                Update Policy
+                Prompt
+                    │
+                    ▼
+        Generate Multiple Completions
+                    │
+                    ▼
+            Deterministic Verifier
+                    │
+                    ▼
+                Rewards
+                    │
+                    ▼
+        Group-Relative Advantages
+                    │
+                    ▼
+        Clipped GRPO Objective
+                    │
+                    ▼
+        Reference Policy Regularization
+                    │
+                    ▼
+            Update Policy
 ```
 
 ---
