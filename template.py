@@ -55,6 +55,7 @@ list_of_files = [
     f"{chapter_07}/Minimal_GRPO_RLVR.py",
 
     f"{chapter_08}/README.md",
+    f"{chapter_08}/Knowledge_Distillation.ipynb",
 ]
 
 
