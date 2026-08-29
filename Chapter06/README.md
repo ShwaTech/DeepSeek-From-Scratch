@@ -2,20 +2,20 @@
 
 This chapter brings together all the architectural innovations from previous chapters into a complete, trainable "MiniDeepSeek V3" model. Unlike other chapters that use Jupyter notebooks, this chapter consists of **four standalone Python scripts** that form a complete training pipeline.
 
-### Code Structure
+## Code Structure
 
 The code is organized as a pipeline — run the scripts in order:
 
 ```
 ch06/
-├── requirements.txt    # Project dependencies (Listing 6.1)
+├── requirements.txt             # Project dependencies (Listing 6.1)
 ├── Stage_01_prepare.py          # Data preparation pipeline (Listings 6.2–6.5)
 ├── Stage_02_model.py            # Complete MiniDeepSeek architecture (Listings 6.6–6.18)
 ├── Stage_03_train.py            # Training loop with evaluation (Listings 6.19–6.24)
 └── Stage_04_sample.py           # Text generation from trained model
 ```
 
-### How to Run
+## How to Run
 
 ```bash
 # 1. Install dependencies
@@ -31,7 +31,7 @@ python Stage_03_train.py
 python Stage_04_sample.py
 ```
 
-### What Each File Contains
+## What Each File Contains
 
 - **Stage_01_prepare.py** — Downloads TinyStories from Hugging Face, tokenizes with the `gpt2` BPE tokenizer (tiktoken), saves as memory-mapped binary files for efficient training
 - **Stage_02_model.py** — The complete MiniDeepSeek architecture integrating:
@@ -43,3 +43,23 @@ python Stage_04_sample.py
   - `MiniDeepSeek` — The top-level model with separate training and inference paths
 - **Stage_03_train.py** — Training script with cosine LR scheduling, mixed-precision training, and periodic checkpointing (~130M parameter "flagship" configuration)
 - **Stage_04_sample.py** — Interactive text generation using KV-cached inference
+
+## Pipeline Visual Overview
+
+```
+Raw Text Data (TinyStories)
+        ↓
+[Stage 01: Prepare]
+  Tokenize → Memory-map → Save .bin files
+        ↓
+[Stage 02: Model Definition]
+  Define architecture with all DeepSeek innovations
+        ↓
+[Stage 03: Training]
+  Train for N epochs with LR scheduling + mixed precision
+        ↓
+[Stage 04: Sampling]
+  Load checkpoint → Generate text interactively
+```
+
+This pipeline approach ensures you can swap out any component (e.g., dataset, model size, tokenizer) without breaking the entire workflow — exactly how real AI research is conducted.
