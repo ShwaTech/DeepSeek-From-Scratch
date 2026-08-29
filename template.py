@@ -11,6 +11,7 @@ chapter_02 = "Chapter02"
 chapter_03 = "Chapter03"
 chapter_04 = "Chapter04"
 chapter_05 = "Chapter05"
+chapter_06 = "Chapter06"
 
 
 list_of_files = [
@@ -24,7 +25,7 @@ list_of_files = [
     f"{chapter_01}/06_Causal_Attention.ipynb",
     f"{chapter_01}/07_Multi-Head_Attention(MHA).ipynb",
     f"{chapter_01}/08_Multi-Head_Attention_Visualized.ipynb",
-    
+
     f"{chapter_02}/01_KV_Cache.ipynb",
     f"{chapter_02}/02_Multi-Query_Attention(MQA).ipynb",
     f"{chapter_02}/03_Grouped-Query_Attention(GQA).ipynb",
@@ -40,6 +41,9 @@ list_of_files = [
     f"{chapter_05}/01_Multi_Token_Prediction_(MTP)_From_Scratch.ipynb",
     f"{chapter_05}/02_DeepSeek_Multi_Token_Prediction(DeepSeekMTP).ipynb",
     f"{chapter_05}/03_DeepSeek_Quantization.ipynb",
+
+    f"{chapter_06}/README.md",
+
 ]
 
 
