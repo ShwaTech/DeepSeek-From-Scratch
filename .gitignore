@@ -8,6 +8,7 @@ __pycache__/
 
 # Data
 data/input.txt
+data/tinystories_tokenized/
 
 # Distribution / packaging
 .Python
