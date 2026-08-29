@@ -47,7 +47,7 @@ list_of_files = [
     f"{chapter_06}/Stage_01_prepare.py",
     f"{chapter_06}/Stage_02_model.py",
     f"{chapter_06}/Stage_03_train.py",
-
+    f"{chapter_06}/Stage_04_sample.py",
 
 ]
 
