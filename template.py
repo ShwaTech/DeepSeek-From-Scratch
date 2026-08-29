@@ -45,6 +45,7 @@ list_of_files = [
     f"{chapter_06}/README.md",
     f"{chapter_06}/requirements.txt",
     f"{chapter_06}/01_prepare.py",
+    f"{chapter_06}/02_model.py",
     
 
 ]
