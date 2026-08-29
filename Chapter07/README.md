@@ -386,11 +386,11 @@ optimizer.step()
 
 ```text
 .
-├── GRPO_RLVR.py
+├── Minimal_GRPO_RLVR.py
 └── README.md
 ```
 
-### `GRPO_RLVR.py`
+### `Minimal_GRPO_RLVR.py`
 
 Contains the main building blocks:
 
@@ -513,7 +513,7 @@ advantages [batch_size, group_size]
 Run:
 
 ```bash
-python GRPO_RLVR.py
+python Minimal_GRPO_RLVR.py
 ```
 
 Example output:
