@@ -35,50 +35,50 @@ The goal is simple:
 # 🗺️ Learning Journey
 
 ```text
-                                  Tokenization
-                                       │
-                                       ▼
-                                  Pair Encoding
-                                       │
-                                       ▼
-                                  Data Loading
-                                       │
-                                       ▼
-                                  Embeddings
-                                       │
-                                       ▼
-                                  Self-Attention
-                                       │
-                                       ▼
-                                  Causal Attention
-                                       │
-                                       ▼
-                                  Multi-Head Attention
-                                       │
-                                       ▼
-                                  KV Cache
-                                       │
-                                       ├──────────────► MQA
-                                       │
-                                       └──────────────► GQA
-                                                           │
-                                                           ▼
-                                                          MLA
-                                                           │
-                                                           ▼
-                                                 Mixture of Experts
-                                                           │
-                                                           ▼
-                                                Multi-Token Prediction
-                                                           │
-                                                           ▼
-                                                    Quantization
-                                                           │
-                                                           ▼
-                                               Knowledge Distillation
-                                                           │
-                                                           ▼
-                                                    GRPO + RLVR
+      Tokenization
+           │
+           ▼
+      Pair Encoding
+           │
+           ▼
+      Data Loading
+           │
+           ▼
+      Embeddings
+           │
+           ▼
+      Self-Attention
+           │
+           ▼
+      Causal Attention
+           │
+           ▼
+      Multi-Head Attention
+           │
+           ▼
+      KV Cache
+           │
+           ├──────────────► MQA
+           │
+           └──────────────► GQA
+                               │
+                               ▼
+                              MLA
+                               │
+                               ▼
+                     Mixture of Experts
+                               │
+                               ▼
+                    Multi-Token Prediction
+                               │
+                               ▼
+                        Quantization
+                               │
+                               ▼
+                   Knowledge Distillation
+                               │
+                               ▼
+                        GRPO + RLVR
 ```
 
 ---
@@ -238,16 +238,16 @@ Learn how DeepSeek-style models reduce memory and computation requirements using
 A structured implementation of a small language model training pipeline.
 
 ```text
-                                                Prepare Data
-                                                     │
-                                                     ▼
-                                                Build Model
-                                                     │
-                                                     ▼
-                                                Train Model
-                                                     │
-                                                     ▼
-                                              Generate Samples
+      Prepare Data
+           │
+           ▼
+      Build Model
+           │
+           ▼
+      Train Model
+           │
+           ▼
+    Generate Samples
 ```
 
 The chapter is organized into independent stages:
@@ -276,19 +276,19 @@ Generate → Verify → Reward → Learn
 **Group Relative Policy Optimization** compares multiple sampled responses for the same prompt and optimizes the policy using relative advantages.
 
 ```text
-                                                  Prompt
-                                                     │
-                                                     ▼
-                                         Generate Multiple Responses
-                                                     │
-                                                     ▼
-                                               Verify Rewards
-                                                     │
-                                                     ▼
-                                          Compute Group Advantages
-                                                     │
-                                                     ▼
-                                               Update Policy
+              Prompt
+                 │
+                 ▼
+     Generate Multiple Responses
+                 │
+                 ▼
+           Verify Rewards
+                 │
+                 ▼
+      Compute Group Advantages
+                 │
+                 ▼
+           Update Policy
 ```
 
 ---
@@ -354,25 +354,25 @@ Every major concept is broken into smaller implementations so that complex syste
 The journey moves from:
 
 ```text
-                                                    Tokens
-                                                       ↓
-                                                   Embeddings
-                                                       ↓
-                                                   Attention
-                                                       ↓
-                                              Efficient Attention
-                                                       ↓
-                                                      MLA
-                                                       ↓
-                                                      MoE
-                                                       ↓
-                                                      MTP
-                                                       ↓
-                                                  Quantization
-                                                       ↓
-                                             Knowledge Distillation
-                                                       ↓
-                                             Reinforcement Learning
+              Tokens
+                 ↓
+             Embeddings
+                 ↓
+             Attention
+                 ↓
+        Efficient Attention
+                 ↓
+                MLA
+                 ↓
+                MoE
+                 ↓
+                MTP
+                 ↓
+            Quantization
+                 ↓
+       Knowledge Distillation
+                 ↓
+       Reinforcement Learning
 ```
 
 ---
